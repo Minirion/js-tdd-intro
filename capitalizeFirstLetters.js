@@ -8,14 +8,4 @@ function capitalizeFirstLetters (input) {
   return step3;
 };
 
-// Script Test capitalizeFirstLetters
-assert.strictEqual(typeof capitalizeFirstLetters, 'function');
-
-assert.strictEqual(capitalizeFirstLetters.length, 1);
-
-assert.strictEqual(capitalizeFirstLetters('i love tdd'), 'I Love Tdd');
-
-assert.strictEqual(capitalizeFirstLetters('coucou'), 'Coucou');
-
-assert.strictEqual(capitalizeFirstLetters(''), '');
-
+module.exports = capitalizeFirstLetters;
