@@ -1,5 +1,6 @@
 const assert = require('assert');
 
+// Code function
 function capitalizeFirstLetters (input) {
   let step1 = input.split(" ");
   let step2 = step1.map((one) => one.charAt(0).toUpperCase() + one.slice(1));
@@ -7,6 +8,7 @@ function capitalizeFirstLetters (input) {
   return step3;
 };
 
+// Script Test capitalizeFirstLetters
 assert.strictEqual(typeof capitalizeFirstLetters, 'function');
 
 assert.strictEqual(capitalizeFirstLetters.length, 1);
